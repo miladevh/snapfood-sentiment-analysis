@@ -1,13 +1,21 @@
 import streamlit as st
-import joblib
+from pathlib import Path
 import numpy as np
-
+import joblib
 from gensim.models import Word2Vec
 
 
-svc = joblib.load('../model/linear_svc.pkl')
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-w2v = Word2Vec.load("../model/word2vec.model")
+MODEL_PATH = BASE_DIR / "model" / "linear_svc.pkl"
+W2V_PATH = BASE_DIR / "model" / "word2vec.model"
+
+
+svc = joblib.load(MODEL_PATH)
+w2v = Word2Vec.load(str(W2V_PATH))
+
+
+
 
 
 def sentence_to_vec(tokens, model):
