@@ -16,12 +16,12 @@
 
 ## Positive Sentiment Prediction
 
-<img src="screenshots/positive_prediction.png" width="700">
+<img src="screenshots/positive_example.png" width="700">
 
 
 ## Negative Sentiment Prediction
 
-<img src="screenshots/negative_prediction.png" width="700">
+<img src="screenshots/negative_example.png" width="700">
 
 # 📌 Overview
 
