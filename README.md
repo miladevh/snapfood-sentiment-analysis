@@ -5,6 +5,7 @@
 ## 🚀 Live Demo
 
 ### Try the deployed application:
+### Pleas use a good VPN
 
 ### https://snapfood-sentiment-analysis-dikynyqrd4ee5ve6szst8b.streamlit.app/
 
