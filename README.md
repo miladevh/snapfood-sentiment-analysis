@@ -12,6 +12,17 @@
 
 ---
 
+# 📸 Application Screenshots
+
+## Positive Sentiment Prediction
+
+<img src="screenshots/positive_prediction.png" width="700">
+
+
+## Negative Sentiment Prediction
+
+<img src="screenshots/negative_prediction.png" width="700">
+
 # 📌 Overview
 
 This project is an end-to-end **Persian Sentiment Analysis system** built on SnapFood customer reviews.
